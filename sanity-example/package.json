@@ -1,0 +1,39 @@
+{
+  "name": "sanity-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Aubrey Kazdan <aubrey.j.kazdan@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.27.0",
+    "@sanity/block-content-to-react": "^3.0.0",
+    "@sanity/color-input": "^2.27.0",
+    "@sanity/core": "^2.27.0",
+    "@sanity/dashboard": "^2.27.0",
+    "@sanity/default-layout": "^2.27.0",
+    "@sanity/default-login": "^2.27.0",
+    "@sanity/desk-tool": "^2.27.0",
+    "@sanity/ui": "^0.37.5",
+    "@sanity/vision": "^2.27.0",
+    "prop-types": "^15.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "sanity-plugin-better-slug": "^1.0.0",
+    "sanity-plugin-inline-svg": "^1.0.3",
+    "sanity-plugin-mux-input": "^1.1.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@sanity/cli": "^2.27.0"
+  }
+}
